@@ -1,0 +1,8 @@
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+F:/tareas unity/animated AR/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/5r5bg1a3/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

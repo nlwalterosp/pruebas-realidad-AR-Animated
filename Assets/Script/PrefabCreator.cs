@@ -8,7 +8,8 @@ public class PrefabCreator : MonoBehaviour
     [SerializeField] private GameObject josePrefab;
     
     [SerializeField] private Vector3 joseonOffset;
-    
+    [SerializeField] private Vector3 joseOffsetrotation;
+
 
     private GameObject jose;
     
@@ -29,6 +30,8 @@ public class PrefabCreator : MonoBehaviour
             {
                 jose = Instantiate(josePrefab, image.transform);
                 jose.transform.position = joseonOffset;
+                jose.transform.rotation = Quaternion.Euler(joseOffsetrotation);
+
             }
 
            
