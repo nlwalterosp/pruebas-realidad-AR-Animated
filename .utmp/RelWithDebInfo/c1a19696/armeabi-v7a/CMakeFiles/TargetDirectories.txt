@@ -1,0 +1,8 @@
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+F:/tareas unity/animated AR/.utmp/RelWithDebInfo/c1a19696/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

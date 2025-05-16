@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: target 1
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5554542458117332223
+  m_GuidHigh: 4998239112874843010
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4982254807334399779
+      m_GuidHigh: 16522416012122261384
+    m_SerializedTextureGuid:
+      m_GuidLow: 15156019282381628832
+      m_GuidHigh: 1614861075547818393
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Target conejo prueba
+    m_Texture: {fileID: 0}
