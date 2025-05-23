@@ -1,0 +1,8 @@
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/camil/OneDrive/Documentos/Projects/Unity Projects/pruebas-realidad-AR-Animated/.utmp/RelWithDebInfo/2uz263l2/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

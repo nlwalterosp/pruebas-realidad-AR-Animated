@@ -1,0 +1,3 @@
+C:\Users\camil\OneDrive\Documentos\Projects\Unity Projects\pruebas-realidad-AR-Animated\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\camil\OneDrive\Documentos\Projects\Unity Projects\pruebas-realidad-AR-Animated\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+C:\Users\camil\OneDrive\Documentos\Projects\Unity Projects\pruebas-realidad-AR-Animated\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
