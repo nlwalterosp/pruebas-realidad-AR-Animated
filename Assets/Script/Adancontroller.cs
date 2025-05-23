@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public FixedJoystick fixedJoystick;
-    public float speed = 0.5f;
+    public float speed = 0.2f;
     public float rotationSpeed = 10f;
 
     private Rigidbody rb;
@@ -21,18 +21,11 @@ public class PlayerController : MonoBehaviour
 
         Vector3 direction = new Vector3(xVal, 0, yVal);
 
-        if (direction.magnitude > 0.1f)
-        {
-            // Movimiento del personaje
-            rb.linearVelocity = direction.normalized * speed;
+        rb.velocity = direction * speed;
 
-            // Rotaci�n suave hacia la direcci�n del movimiento
-            Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
-        }
-        else
+        if (xVal != 0 && yVal != 0)
         {
-            rb.linearVelocity = Vector3.zero;
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, Mathf.Atan2(xVal, yVal) * Mathf.Rad2Deg, transform.eulerAngles.z);
         }
     }
 }
