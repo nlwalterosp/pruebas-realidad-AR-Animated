@@ -6,12 +6,12 @@ using System.Collections.Generic;
 public class RaycastController : MonoBehaviour
 {
     [SerializeField] private Camera userCamera; // Referencia a la cámara que se asignará desde el inspector
-    private GameObject targetObject; // Objeto objetivo arrastrando desde el inspector
+    [SerializeField] private GameObject targetObject; // Objeto objetivo arrastrando desde el inspector
     
     [SerializeField] private ARRaycastManager arRaycastManager; // Referencia al ARRaycastManager
     [SerializeField] private bool useARRaycast = true; // Opción para alternar entre raycast normal y AR raycast
 
-    private GameObject avisoSeleccion;
+    [SerializeField] private GameObject avisoSeleccion;
     
     private static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>(); // Lista para almacenar hits de AR raycast
     
@@ -37,16 +37,11 @@ public class RaycastController : MonoBehaviour
             }
         }
         
-        targetObject = GameObject.Find("MDL_Adam");
-        avisoSeleccion = GameObject.Find("AvisoSeleccion");
         avisoSeleccion.SetActive(false); 
     }
 
     void Update()
     {
-        targetObject = GameObject.Find("MDL_Adam");
-        avisoSeleccion = GameObject.Find("AvisoSeleccion");
-        avisoSeleccion.SetActive(false); 
         // Detectar toques en pantalla para Android
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
