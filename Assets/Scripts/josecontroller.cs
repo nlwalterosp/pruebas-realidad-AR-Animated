@@ -20,6 +20,4 @@ public class josecontroller : MonoBehaviour
     {
         animator.SetBool("Walk", isOn);
     }
-
-   
 }
