@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float rotationSpeed = 10f;
     private Vector3 destination;
     private bool movingToDestination = false;
+    private float moveStartTime; // Nueva variable para rastrear el tiempo de inicio del movimiento
 
     private Rigidbody rb;
     private RaycastController raycastController;
@@ -36,12 +37,13 @@ public class PlayerController : MonoBehaviour
                 );
             }
             
-            // Comprobar si hemos llegado al destino
-            if (Vector3.Distance(transform.position, destination) < 0.1f)
+            // Comprobar si hemos llegado al destino o si han pasado 5 segundos
+            if (Vector3.Distance(transform.position, destination) < 0.1f || Time.time - moveStartTime >= 5.0f)
             {
                 movingToDestination = false;
                 rb.velocity = Vector3.zero;
-                raycastController.raycastBlocked = false; // Desbloquear el raycast al llegar al destino
+                raycastController.raycastBlocked = false; // Desbloquear el raycast al llegar al destino o después de 5 segundos
+                Debug.Log("Llegado al destino o tiempo agotado, raycast desbloqueado.");
             }
         }
         else
@@ -66,5 +68,6 @@ public class PlayerController : MonoBehaviour
         destination = newDestination;
         movingToDestination = true;
         raycastController.raycastBlocked = true; // Bloquear raycast mientras se mueve
+        moveStartTime = Time.time; // Registrar cuando inicia el movimiento
     }
 }
