@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -11,6 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     private RaycastController raycastController;
+    
 
     private void Start()
     {
@@ -44,6 +46,9 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = Vector3.zero;
                 raycastController.raycastBlocked = false; // Desbloquear el raycast al llegar al destino o después de 5 segundos
                 Debug.Log("Llegado al destino o tiempo agotado, raycast desbloqueado.");
+                Transform selectorRing = transform.Find("Selector_Ring");
+                if (selectorRing != null) selectorRing.gameObject.SetActive(false);
+                raycastController.destroyIndicatorCopy();   
             }
         }
         else

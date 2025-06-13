@@ -9,6 +9,7 @@ public class RaycastController : MonoBehaviour
     [SerializeField] private LayerMask layerMask;
     private PlayerController playerController;
     public bool raycastBlocked = false;
+    public GameObject destinyIndicator; // Asignar el indicador desde el inspector
 
     void Update()
     {
@@ -51,6 +52,8 @@ public class RaycastController : MonoBehaviour
                     {
                         Debug.Log("Objeto tocado: " + hitObject.collider.gameObject.name);
                         adamMode = false;
+                        Transform selectorRing = targetObject.transform.Find("Selector_Ring");
+                        selectorRing.gameObject.SetActive(true);
                     }
                 }
                 return;
@@ -63,9 +66,20 @@ public class RaycastController : MonoBehaviour
                         raycastBlocked = true;
                         playerController.SetDestination(hitObject.point);
                         adamMode = true;
+                        GameObject indicator = Instantiate(destinyIndicator, hitObject.point, Quaternion.identity);
                     }
                 }
                 return;
+        }
+    }
+
+    public void destroyIndicatorCopy()
+    {
+        // Buscar todos los indicadores de destino en la escena
+        GameObject[] indicators = GameObject.FindGameObjectsWithTag("DestinyIndicator");
+        foreach (GameObject indicator in indicators)
+        {
+            Destroy(indicator);
         }
     }
 
