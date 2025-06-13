@@ -1046,7 +1046,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 72
   raycastBlocked: 0
-  destinyIndicator: {fileID: 0}
+  destinyIndicator: {fileID: 2547418994202418625, guid: 96b30159899f2da41bfda4075e15872e, type: 3}
 --- !u!4 &1968570967
 Transform:
   m_ObjectHideFlags: 0
